@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LuxE Boutique</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>LuxE Boutique</h1>
+</header>
+
+<section class="products">
+
+  <% if (products.length === 0) { %>
+    <p style="text-align:center;">No products yet</p>
+  <% } %>
+
+  <% products.forEach(product => { %>
+    <div class="card">
+      <img src="<%= product.image %>" alt="">
+      <h3><%= product.name %></h3>
+      <p>$<%= product.price %></p>
+      <p><%= product.description %></p>
+      <button>Add to Cart</button>
+    </div>
+  <% }) %>
+
+</section>
+
+<footer>
+  <p>© 2026 LuxE. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
