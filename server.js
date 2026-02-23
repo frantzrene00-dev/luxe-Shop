@@ -28,7 +28,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/luxe-shop
 });
 
 // Routes
-app.use('/', require('./routes/index'));
+const liveRoutes = require('./routes/live');
+app.use('/live', liveRoutes);
 app.use('/admin', require('./routes/admin'));
 app.use('/api', require('./routes/api'));
 
