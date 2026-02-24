@@ -1,0 +1,12 @@
+{
+  "name": "luxe-shop",
+  "version": "1.0.0",
+  "description": "Luxe Shop Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
