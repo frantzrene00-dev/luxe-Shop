@@ -1,2 +1,0 @@
-app.use("/dropshipping", require("./routes/dropshipping"))
-app.use("/dropshipping-eprolo", require("./routes/dropshipping-eprolo"))

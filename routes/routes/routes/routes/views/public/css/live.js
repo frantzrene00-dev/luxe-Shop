@@ -1,4 +1,0 @@
-MONGO_URI=your_mongodb_uri
-CJ_API_KEY=your_cj_api_key
-EPROLO_API_KEY=your_eprolo_api_key
-EPROLO_USER_ID=your_eprolo_user_id
